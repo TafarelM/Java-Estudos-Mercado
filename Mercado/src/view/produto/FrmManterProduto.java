@@ -45,7 +45,7 @@ public class FrmManterProduto extends javax.swing.JFrame {
         cbxMarca = new javax.swing.JComboBox<>();
         cbxCategoria = new javax.swing.JComboBox<>();
         cbxSubcategoria = new javax.swing.JComboBox<>();
-        ftxtDataValidade = new javax.swing.JFormattedTextField();
+        ftxtDataFabricacao = new javax.swing.JFormattedTextField();
         ftxtDataVencimento = new javax.swing.JFormattedTextField();
         jScrollPane1 = new javax.swing.JScrollPane();
         jPanel2 = new javax.swing.JPanel();
@@ -66,9 +66,9 @@ public class FrmManterProduto extends javax.swing.JFrame {
 
         jLabel5.setText("Marca");
 
-        jLabel6.setText("Data Validade");
+        jLabel6.setText("Data Vencimento");
 
-        jLabel7.setText("Data Vencimento");
+        jLabel7.setText("Data Fabricação");
 
         lblDescricao.setText("Descrição");
 
@@ -87,8 +87,8 @@ public class FrmManterProduto extends javax.swing.JFrame {
         cbxSubcategoria.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         cbxSubcategoria.setPreferredSize(new java.awt.Dimension(100, 20));
 
-        ftxtDataValidade.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.DateFormatter()));
-        ftxtDataValidade.setPreferredSize(new java.awt.Dimension(100, 20));
+        ftxtDataFabricacao.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.DateFormatter()));
+        ftxtDataFabricacao.setPreferredSize(new java.awt.Dimension(100, 20));
 
         ftxtDataVencimento.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.DateFormatter()));
         ftxtDataVencimento.setPreferredSize(new java.awt.Dimension(100, 20));
@@ -144,7 +144,7 @@ public class FrmManterProduto extends javax.swing.JFrame {
                                         .addGap(60, 60, 60)
                                         .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))
                                     .addGroup(jPanel1Layout.createSequentialGroup()
-                                        .addComponent(ftxtDataValidade, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(ftxtDataFabricacao, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addGap(50, 50, 50)
                                         .addComponent(ftxtDataVencimento, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))))
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
@@ -187,7 +187,7 @@ public class FrmManterProduto extends javax.swing.JFrame {
                             .addComponent(jLabel6))
                         .addGap(6, 6, 6)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(ftxtDataValidade, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(ftxtDataFabricacao, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(ftxtDataVencimento, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addContainerGap(20, Short.MAX_VALUE))
         );
@@ -286,7 +286,7 @@ public class FrmManterProduto extends javax.swing.JFrame {
     private javax.swing.JComboBox<String> cbxCategoria;
     private javax.swing.JComboBox<String> cbxMarca;
     private javax.swing.JComboBox<String> cbxSubcategoria;
-    private javax.swing.JFormattedTextField ftxtDataValidade;
+    private javax.swing.JFormattedTextField ftxtDataFabricacao;
     private javax.swing.JFormattedTextField ftxtDataVencimento;
     private javax.swing.JFormattedTextField ftxtPreco;
     private javax.swing.JLabel jLabel1;
