@@ -1,5 +1,5 @@
 
-package model.dao;
+package model.bean;
 
 /**
  *
@@ -33,5 +33,5 @@ public class Categoria {
     public void setNome(String nome) {
         this.nome = nome;
     }
-    
+
 }

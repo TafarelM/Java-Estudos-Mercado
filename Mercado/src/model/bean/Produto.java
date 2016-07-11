@@ -1,5 +1,5 @@
 
-package model.dao;
+package model.bean;
 
 import java.util.Date;
 
@@ -114,7 +114,5 @@ public class Produto {
 
     public void setDataVencimento(Date dataVencimento) {
         this.dataVencimento = dataVencimento;
-    }
-    
-    
+    }     
 }

@@ -1,6 +1,5 @@
 
-package model.dao;
-
+package model.bean;
 /**
  *
  * @author Tafar
